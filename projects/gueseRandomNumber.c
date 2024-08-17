@@ -21,8 +21,10 @@ int main () {
         if (guess < randomNumber)
         {   
             printf("higher \n");
-        } else {
+        } else if (randomNumber < guess) {
             printf("lower \n");
+        } else {
+            printf("congrats !! \n");
         }
         
 
