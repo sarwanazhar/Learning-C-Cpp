@@ -7,7 +7,7 @@ float average(int a, int b, int c) {
 }
 
 int main () {
-    float averaged = average(3,50,20);
+    int averaged = average(3,50,20);
 
     printf("the average of 3,50,20 is %.2f\n", averaged);
     return 0;
